@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
     func exponent(base: UInt, exp: UInt) -> UInt {
         if 1 == exp {
             return base
@@ -33,8 +34,8 @@ class ViewController: UIViewController {
         }
     }
 
-/*
-    func exponent(base: UInt, exp: UInt) -> UInt {
+
+   /* func exponent(base: UInt, exp: UInt) -> UInt {
         if 1 == exp {
             return base
         }
@@ -45,8 +46,8 @@ class ViewController: UIViewController {
         else {
             return base * exponent(base: base, exp: exp / 2) * exponent(base: base, exp: exp / 2)
         }
-    }
-*/
+    }*/
+
     
     @IBAction func equals(_ sender: Any) {
         result.text = "?"
